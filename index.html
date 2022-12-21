@@ -9,23 +9,23 @@
     <script>
         // Este es el scrit con el mensaje
         function mifunc() {
-            var nom= document.getElementById("nombre").value;
-            var adreça= document.getElementById("direccion").value;
-            var edat= document.getElementById("edad").value;
-            alert("benvingut: "+nombre+" "+direccion+","+edad);
+            var nombre= document.getElementById("nombre").value;
+            var direccion= document.getElementById("direccion").value;
+            var edad= document.getElementById("edad").value;
+            alert("Bienvenido: "+nombre+" "+direccion+","+edad);
         }
     </script>
 </head>
 <body>
-        <!-- Titulo -->
-         <h1 id="pont">PONT</h1>
-         <p id="pont">hola <br> bon dia</p>
+        <!-- Titulo del formulario -->
+         <h1 id="puente">PONT</h1>
+         <p id="puente">hola <br> buenos días</p>
          <hr>
-        <!-- Contenido -->
+        <!-- Contenido del formulario -->
     <form method="post" enctype="text">
         <p onclick="this.style.color='blue'"> nombre <input onclick="this.style.color='blue'" type="text" id="nombre"> </p>
-        <p>adreça <input type="text" id="direccion"> </p>
-        <p ondblclick="this.style.color='pink'">edat <input ondblclick="this.style.color='pink'" type="text" id="edad" onblur="mifunc()"> </p>
+        <p>direccion <input type="text" id="direccion"> </p>
+        <p ondblclick="this.style.color='pink'">edad <input ondblclick="this.style.color='pink'" type="text" id="edad" onblur="mifunc()"> </p>
     </form>
 </body>
 </html>
